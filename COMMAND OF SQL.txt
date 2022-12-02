@@ -1,0 +1,19 @@
+use system5;
+create database system5;
+create table vrsuser(
+v_id char(6) primary key,
+car_num varchar(50) not null,
+name varchar(500) not null,
+contact char(10) not null,
+email varchar(500) not null ,
+address varchar(500) not null,
+pincode char(6) not null,
+city varchar(500) not null,
+state varchar(500) not null
+);
+
+create table logindata(
+name varchar(500),
+v_id char(6) ,
+password varchar(500)
+);
